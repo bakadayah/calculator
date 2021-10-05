@@ -1,0 +1,46 @@
+h1 {
+  color: blue;
+}
+table,
+th,
+td {
+}
+button {
+  font-size: 30px;
+  align-items: center;
+  color: white;
+}
+.text-center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: orange;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+button:hover {
+  background-color: #9d5600;
+}
+.input {
+  height: 80px;
+  background-color: #303030;
+}
+div.input {
+  text-align: right;
+  vertical-align: text-bottom;
+  color: white;
+  font-size: 50px;
+}
+.text-view {
+  width: 200px;
+  height: 50px;
+  font-size: 25;
+  padding: 5;
+}

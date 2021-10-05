@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div class = title >My Calculator</div>
+    <table class = text-center style="width: 300px">
+        <tr>
+
+            <td colspan="4" class="input">
+                <form name="form">
+                    <input class="text-view">
+                    
+                </form>
+                
+               
+
+            </td>
+        </tr>
+        <tr>
+          <td><button class="block" value="reset" type="button" onclick="getValue(this)">AC</button></td>
+          <td><button class="block" value="negative" type="button" onclick="getValue(this)">+/-</button></td>
+          <td><button class="block" value="%" type="button" onclick="getValue(this)">%</button></td>
+          <td><button class="block" value="/" type="button" onclick="getValue('/')">÷</button></td>
+        </tr>
+        <tr>
+          <td><button class="block" value="7" type="button" onclick="getValue(7)">7</button></td>
+          <td><button class="block" value="8"type="button" onclick="getValue(8)">8</button></td>
+          <td><button class="block" value="9"type="button" onclick="getValue(9)">9</button></td>
+          <td><button class="block" value="*"type="button" onclick="getValue('*')">x</button></td>
+        </tr>
+        <tr>
+          <td><button class="block" value="4" type="button" onclick="getValue(4)">4</button></td>
+          <td><button class="block" value="5" type="button" onclick="getValue(5)">5</button></td>
+          <td><button class="block" value="6" type="button" onclick="getValue(6)">6</button></td>
+          <td><button class="block" value="-" type="button" onclick="getValue('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="block" value="1" type="button" onclick="getValue(1)">1</button></td>
+            <td><button class="block" value="2" type="button" onclick="getValue(2)">2</button></td>
+            <td><button class="block" value="3" type="button" onclick="getValue(3)">3</button></td>
+            <td><button class="block" value="+" type="button" onclick="getValue('+')">+</button></td>
+          </tr>
+      </table>
+<script src="src/js/main.js"></script>
+</body>
+</html>
